@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rupa Dey"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <EditText
+        android:id="@+id/nicknameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Input Nickname"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_margin="30dp"
+        android:padding="8dp"
+        />
+
+    <ScrollView
+
+        android:layout_width="409dp"
+        android:layout_height="529dp"
+
+
+        android:paddingLeft="10sp"
+        android:paddingTop="30sp"
+        android:paddingRight="5sp"
+        android:paddingBottom="100sp"
+        android:scrollbarSize="4dp">
+
+        <TextView
+            android:id="@+id/btn"
+            style="@style/TextAppearance.AppCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="tai tai tai mamar bari jai mama dilo dudh bhaat pet vore khai, farjana elo lathi niye palai palai tai tai tai mamar bari jai mama dilo dudh bhaat pet vore khai, farjana elo lathi niye palai palai tai tai tai mamar bari jai mama dilo dudh bhaat pet vore khai, farjana elo lathi niye palai palai tai tai tai mamar bari jai mama dilo dudh bhaat pet vore khai, farjana elo lathi niye palai palai tai tai "
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            android:lineSpacingMultiplier="1.5"/>
+
+    </ScrollView>
+
+</LinearLayout>
