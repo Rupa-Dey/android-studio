@@ -48,11 +48,6 @@
         android:layout_width="409dp"
         android:layout_height="529dp"
 
-
-        android:paddingLeft="10sp"
-        android:paddingTop="30sp"
-        android:paddingRight="5sp"
-        android:paddingBottom="100sp"
         android:scrollbarSize="4dp">
 
         <TextView
@@ -60,8 +55,12 @@
             style="@style/TextAppearance.AppCompat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingBottom="200sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="30sp"
 
-            android:text="tai tai tai mamar bari jai mama dilo dudh bhaat pet vore khai, farjana elo lathi niye palai palai tai tai tai mamar bari jai mama dilo dudh bhaat pet vore khai, farjana elo lathi niye palai palai tai tai tai mamar bari jai mama dilo dudh bhaat pet vore khai, farjana elo lathi niye palai palai tai tai tai mamar bari jai mama dilo dudh bhaat pet vore khai, farjana elo lathi niye palai palai tai tai "
+
+          android:text="i am rupa. my roll number is 1912276130 . i am rupa. my roll number is 1912276130. i am rupa. my roll number is 1912276130. i am rupa. my roll number is 1912276130. i am rupa. my roll number is 1912276130."
             android:textAlignment="viewStart"
             android:textColor="@color/black"
             android:textSize="40sp"
